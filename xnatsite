@@ -1,0 +1,5 @@
+<Directory /var/www/xnatview_dev/python>
+    AddHandler mod_python .py
+    PythonHandler hello
+    PythonDebug On
+</Directory>
